@@ -42,4 +42,24 @@ $box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       color: #b0b0b0;
     }
   }
+  @media (max-width: 768px) {
+  .search-box {
+      position: relative;
+      margin: 24px 16px 0;
+
+      input[type="text"] {
+        left: 92%;
+        box-sizing: border-box;
+      }
+  }
+
+  .search {
+    .search-icon {
+      left: auto;
+      right: 14px;
+    }
+  }
+
+
+}
 
