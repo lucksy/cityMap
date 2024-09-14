@@ -1,13 +1,16 @@
 .wrap {
   display: flex;
-  flex-direction: column; /* Arrange children in a column */
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%; /* Full height of the window */
-  width: 100%; /* Full width of the window */
+  height: 100%;
+  width: 100%;
 }
 header {
-
+  width: 80vw;
+  h1 {
+    margin-right: auto;
+  }
 }
 .container {
   display: flex;
@@ -31,6 +34,13 @@ header {
 
 /* Mobile styles */
 @media (max-width: 768px) {
+  header {
+    width: 100%;
+    h1 {
+      margin-right: initial;
+    }
+  }
+
   .container {
     flex-direction: column;
     height: auto;

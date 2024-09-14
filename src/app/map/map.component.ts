@@ -8,7 +8,7 @@ import { GoogleMapsLoaderService } from '../google-maps-loader.service';
   styleUrls: ['./map.component.scss']
 })
 export class MapComponent implements OnChanges, OnInit {
-  @Input() city: string | undefined;
+  @Input() city: string | undefined = 'New York City';
 
   private map!: google.maps.Map;
   private geocoder!: google.maps.Geocoder;
@@ -53,10 +53,10 @@ export class MapComponent implements OnChanges, OnInit {
         if (status === 'OK' && results && results[0]) {
           this.map.panTo(results[0].geometry.location);
           setTimeout(() => {
-            this.smoothZoom(this.map, 10);
+            this.smoothZoom(this.map, 8);
           }, 1000);
         } else {
-          console.error('Geocode was not successful for the following reason: ' + status);
+          console.error('Geocode was not successful: ' + status);
         }
       });
     });
@@ -70,7 +70,7 @@ export class MapComponent implements OnChanges, OnInit {
       });
       setTimeout(() => {
         map.setZoom(currentZoom + (targetZoom > currentZoom ? 1 : -1));
-      }, 10);
+      }, 8);
     } else if (callback) {
       callback();
     }

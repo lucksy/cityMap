@@ -5,8 +5,6 @@ import { Title } from '@angular/platform-browser';
 import { SearchComponent } from '../search/search.component';
 import numWords from 'num-words';
 
-
-
 @Component({
   selector: 'app-table',
   standalone: true,

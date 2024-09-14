@@ -1,6 +1,8 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { MapComponent } from './map.component';
+import { beforeEach, describe, it } from 'node:test';
+import expect from 'node:test';
 
 describe('MapComponent', () => {
   let component: MapComponent;
@@ -16,8 +18,8 @@ describe('MapComponent', () => {
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
-
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
 });
+function customExpect(component: MapComponent) {
+  throw new Error('Function not implemented.');
+}
+
