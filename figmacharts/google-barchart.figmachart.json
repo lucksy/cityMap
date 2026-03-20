@@ -1,0 +1,60 @@
+{
+  "format": "FigmaCharts-save-v1",
+  "version": "1.0",
+  "exportedAt": "2026-03-20T22:10:19.175Z",
+  "pluginVersion": "1.0.1",
+  "metadata": {
+    "name": "google-BarChart"
+  },
+  "chart": {
+    "library": "google",
+    "type": "BarChart",
+    "name": "Bar chart with multiple series",
+    "data": [
+      [
+        "City",
+        "2010 Population",
+        "2000 Population"
+      ],
+      [
+        "New York City, NY",
+        8175000,
+        8008000
+      ],
+      [
+        "Los Angeles, CA",
+        3792000,
+        3694000
+      ],
+      [
+        "Chicago, IL",
+        2695000,
+        2896000
+      ],
+      [
+        "Houston, TX",
+        2099000,
+        1953000
+      ],
+      [
+        "Philadelphia, PA",
+        1526000,
+        1517000
+      ]
+    ],
+    "chartOptions": {
+      "width": "100%",
+      "title": "Population of Largest U.S. Cities",
+      "chartArea": {
+        "width": "50%"
+      },
+      "hAxis": {
+        "title": "Total Population",
+        "minValue": 0
+      },
+      "vAxis": {
+        "title": "City"
+      }
+    }
+  }
+}
