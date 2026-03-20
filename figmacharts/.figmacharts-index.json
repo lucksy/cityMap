@@ -1,0 +1,12 @@
+{
+  "version": "1.0",
+  "charts": [
+    {
+      "fileName": "google-barchart.figmachart.json",
+      "name": "google-BarChart",
+      "library": "google",
+      "type": "BarChart",
+      "updatedAt": "2026-03-20T22:10:19.175Z"
+    }
+  ]
+}
