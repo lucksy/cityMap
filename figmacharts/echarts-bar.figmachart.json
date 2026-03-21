@@ -1,0 +1,91 @@
+{
+  "format": "FigmaCharts-save-v1",
+  "version": "1.0",
+  "exportedAt": "2026-03-21T02:45:25.850Z",
+  "pluginVersion": "1.0.1",
+  "metadata": {
+    "name": "echarts-bar"
+  },
+  "chart": {
+    "library": "echarts",
+    "type": "bar",
+    "name": "Bar Chart Drilldown Animation",
+    "data": null,
+    "chartOptions": {
+      "xAxis": {
+        "data": [
+          "Animals",
+          "Fruits",
+          "Cars"
+        ]
+      },
+      "yAxis": {},
+      "dataGroupId": "",
+      "animationDurationUpdate": 500,
+      "series": {
+        "type": "bar",
+        "id": "sales",
+        "data": [
+          {
+            "value": 5,
+            "groupId": "animals"
+          },
+          {
+            "value": 2,
+            "groupId": "fruits"
+          },
+          {
+            "value": 4,
+            "groupId": "cars"
+          }
+        ],
+        "universalTransition": {
+          "enabled": true,
+          "divideShape": "clone"
+        },
+        "animation": false,
+        "large": false,
+        "progressive": 0
+      },
+      "animation": false,
+      "animationDuration": 0,
+      "progressive": 0,
+      "progressiveThreshold": null,
+      "hoverLayerThreshold": null,
+      "tooltip": {
+        "show": false
+      },
+      "color": [
+        "#D1D7E6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+      ],
+      "grid": {
+        "left": "30%",
+        "right": "30%",
+        "top": "35%"
+      },
+      "title": {
+        "text": "wrfsg",
+        "subtext": "wefwfdsfsaf",
+        "subtextStyle": {
+          "color": "#E20707"
+        }
+      },
+      "titleTypography": {
+        "useGlobal": false,
+        "fontFamily": "Roboto",
+        "fontSize": 28,
+        "fontWeight": 400,
+        "textStyleId": "S:4ec88b93b4f488172de357df0f8a62cee961ed50,",
+        "textStyleName": "M3/headline/medium"
+      }
+    }
+  }
+}
