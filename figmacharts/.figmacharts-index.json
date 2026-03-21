@@ -7,6 +7,13 @@
       "library": "google",
       "type": "BarChart",
       "updatedAt": "2026-03-20T22:10:19.175Z"
+    },
+    {
+      "fileName": "echarts-bar.figmachart.json",
+      "name": "echarts-bar",
+      "library": "echarts",
+      "type": "bar",
+      "updatedAt": "2026-03-21T02:45:25.850Z"
     }
   ]
 }
