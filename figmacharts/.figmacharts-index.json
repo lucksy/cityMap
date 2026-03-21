@@ -14,6 +14,13 @@
       "library": "echarts",
       "type": "bar",
       "updatedAt": "2026-03-21T02:45:25.850Z"
+    },
+    {
+      "fileName": "echarts-bar-test1.figmachart.json",
+      "name": "echarts-bar-test1",
+      "library": "echarts",
+      "type": "bar",
+      "updatedAt": "2026-03-21T02:45:40.917Z"
     }
   ]
 }
